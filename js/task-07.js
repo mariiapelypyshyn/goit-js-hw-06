@@ -18,7 +18,7 @@ const maxValue = Number(inputEl.max);
 inputHandler();
 
 function inputHandler() {
-    spanEl.style.fontSize = this.value + 'px';
+    spanEl.style.fontSize = inputEl.value + 'px';
 };
 
 inputEl.addEventListener("input", inputHandler);
